@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="385" height="101" backgroundGradientColors="[#ece9d8, #ece9d8]" initialize="init();">
+<mx:Script>
+	<![CDATA[
+		import vo.MessageVO;
+		import mx.collections.ArrayCollection;
+		import mx.controls.Alert;
+		import mx.rpc.events.ResultEvent;
+		import mx.rpc.events.FaultEvent;
+		import mx.rpc.remoting.mxml.RemoteObject;
+		private var ro:RemoteObject;
+		
+		public function sayString():void{
+			ro = new RemoteObject();
+			ro.source = "MessagesController";
+			ro.destination = "rubyamf";			
+			ro.addEventListener(FaultEvent.FAULT, sayStringFault);
+			ro.addEventListener(ResultEvent.RESULT, sayStringResult);
+			ro.showBusyCursor = true;
+			ro.index();
+		}
+		public function sayStringFault(event:FaultEvent):void{
+			txtMessage1.text = event.fault.message;
+		}		
+		public function sayStringResult(event:ResultEvent):void{
+			txtMessage1.text = "" + event.result;
+		}	
+		public function sayObject():void{
+			ro = new RemoteObject();
+			ro.source = "MessagesController";
+			ro.destination = "rubyamf";			
+			ro.addEventListener(FaultEvent.FAULT, sayObjectFault);
+			ro.addEventListener(ResultEvent.RESULT, sayObjectResult);
+			ro.showBusyCursor = true;
+			ro.show();
+		}
+		public function sayObjectFault(event:FaultEvent):void{
+			txtMessage2.text = event.fault.message;
+		}		
+		public function sayObjectResult(event:ResultEvent):void{
+			var me:MessageVO;
+			me = MessageVO(event.result);
+			txtMessage2.text = me.text;
+		}		
+		
+	]]>
+</mx:Script>
+	<mx:Button x="10" y="10" label="string" id="btnString" click="sayString();"/>
+	<mx:Button x="10" y="38" label="object" id="btnString0" click="sayObject();"/>
+	<mx:TextInput x="10" y="68" width="365" text="1º Exemplo de Flex com Rails !" editable="false" borderStyle="solid" cornerRadius="10" fontWeight="bold" height="23" textAlign="center"/>
+	<mx:TextInput x="88" y="10" width="287" id="txtMessage1" editable="false"/>
+	<mx:TextInput x="88" y="38" width="287" id="txtMessage2" editable="false"/>
+</mx:Application>

@@ -1,0 +1,1493 @@
+# Logfile created on Wed Jul 09 14:59:46 -0300 2008
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 14:59:46) [GET]
+  Session ID: 7bb7ed39ea09efe015a7e947bc36c664
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00343 (291 reqs/sec) | Rendering: 0.00072 (21%) | DB: 0.00172 (50%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:22:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.02512 (39 reqs/sec) | Rendering: 0.00037 (1%) | DB: 0.00197 (7%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:22:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.105.42 at 2008-07-09 15:22:39) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.30213 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.30813 (3 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:22:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.105.42 at 2008-07-09 15:22:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00253 (395 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00569 (175 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing ApplicationController#index (for 189.35.105.42 at 2008-07-09 15:23:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/bin/" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:224:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:253:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.35.105.42 at 2008-07-09 15:23:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:224:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:253:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 189.35.105.42 at 2008-07-09 15:23:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:165:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/utils.rb:163:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:135:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:112:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:224:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/spawn_manager.rb:253:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.0.1/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:27:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00447 (223 reqs/sec) | Rendering: 0.00032 (7%) | DB: 0.00194 (43%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:27:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.105.42 at 2008-07-09 15:27:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.30018 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.30618 (3 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:27:31) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.105.42 at 2008-07-09 15:27:31) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00230 (434 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00545 (183 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.26.84.30 at 2008-07-09 15:31:20) [POST]
+  Session ID: 72d2c87bd87cf2bd0b3390fabb22fda6
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.05245 (19 reqs/sec) | Rendering: 0.00018 (0%) | DB: 0.00172 (3%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.26.84.30 at 2008-07-09 15:31:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.26.84.30 at 2008-07-09 15:31:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.29910 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.34992 (2 reqs/sec) | Rendering: 0.00017 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.26.84.30 at 2008-07-09 15:31:22) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.26.84.30 at 2008-07-09 15:31:22) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00206 (485 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.05072 (19 reqs/sec) | Rendering: 0.00015 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:32:15) [POST]
+  Session ID: d461b569c9ab56bd31ebcebaefa93217
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00154 (647 reqs/sec) | Rendering: 0.00027 (17%) | DB: 0.00197 (127%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:32:15) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.105.42 at 2008-07-09 15:32:15) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00427 (234 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00715 (139 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:32:16) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.105.42 at 2008-07-09 15:32:16) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00252 (397 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00543 (184 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.26.58.204 at 2008-07-09 15:38:11) [POST]
+  Session ID: ee07604c8ae6f4f268099c60c2d81924
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00416 (240 reqs/sec) | Rendering: 0.00031 (7%) | DB: 0.00147 (35%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.26.58.204 at 2008-07-09 15:38:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.26.58.204 at 2008-07-09 15:38:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.30008 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.30602 (3 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.26.58.204 at 2008-07-09 15:38:13) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.26.58.204 at 2008-07-09 15:38:13) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00224 (446 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00542 (184 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:42:43) [POST]
+  Session ID: 121834aeb356c11a3379a1e55a7ea5dd
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00412 (242 reqs/sec) | Rendering: 0.00031 (7%) | DB: 0.00173 (41%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:42:43) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.105.42 at 2008-07-09 15:42:43) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.29994 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.30588 (3 reqs/sec) | Rendering: 0.00026 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.105.42 at 2008-07-09 15:42:44) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.105.42 at 2008-07-09 15:42:44) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00232 (431 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00542 (184 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.33.229.202 at 2008-07-09 15:44:01) [POST]
+  Session ID: 78c72fe9f2f1cc014aaa009d160c1d37
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00441 (226 reqs/sec) | Rendering: 0.00033 (7%) | DB: 0.00169 (38%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.33.229.202 at 2008-07-09 15:44:01) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.33.229.202 at 2008-07-09 15:44:01) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.30101 (3 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.30701 (3 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.33.229.202 at 2008-07-09 15:44:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.33.229.202 at 2008-07-09 15:44:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00277 (360 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00592 (168 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:11) [POST]
+  Session ID: 344f1b1c1d437e3aab489db4e744dac3
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00437 (228 reqs/sec) | Rendering: 0.00034 (7%) | DB: 0.00170 (38%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 08:22:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00492 (203 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01225 (81 reqs/sec) | Rendering: 0.00024 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:12) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 08:22:12) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00211 (473 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00693 (144 reqs/sec) | Rendering: 0.00022 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:45) [POST]
+  Session ID: ed83f5b5add8f6645c29eb9459f7b455
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00147 (679 reqs/sec) | Rendering: 0.00024 (16%) | DB: 0.00121 (82%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 08:22:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00203 (491 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00727 (137 reqs/sec) | Rendering: 0.00022 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:22:47) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 08:22:47) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00215 (465 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00565 (177 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:27:19) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 08:27:19) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00544 (183 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01401 (71 reqs/sec) | Rendering: 0.00026 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 08:27:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 08:27:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00205 (487 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00692 (144 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 200.213.170.34 at 2008-07-10 09:00:25) [POST]
+  Session ID: 0b22eacc258ab10e32b54fd1f5b45a22
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00413 (242 reqs/sec) | Rendering: 0.00033 (7%) | DB: 0.00097 (23%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 200.213.170.34 at 2008-07-10 09:00:25) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 200.213.170.34 at 2008-07-10 09:00:25) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00450 (221 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01031 (97 reqs/sec) | Rendering: 0.00023 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 200.213.170.34 at 2008-07-10 09:00:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 200.213.170.34 at 2008-07-10 09:00:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00205 (488 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00492 (203 reqs/sec) | Rendering: 0.00022 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 09:01:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.29502 (3 reqs/sec) | Rendering: 0.00031 (0%) | DB: 0.00096 (0%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 09:01:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 09:01:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00240 (416 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00705 (141 reqs/sec) | Rendering: 0.00025 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 09:01:12) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 09:01:12) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00393 (254 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00882 (113 reqs/sec) | Rendering: 0.00024 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:30) [POST]
+  Session ID: b7c81bc276398a70178200846aa73b0d
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00413 (242 reqs/sec) | Rendering: 0.00033 (7%) | DB: 0.00122 (29%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:30) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 11:41:31) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00571 (175 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.31078 (3 reqs/sec) | Rendering: 0.00023 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00315 (317 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00799 (125 reqs/sec) | Rendering: 0.00023 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:36) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 11:41:36) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00217 (461 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00669 (149 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:37) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:37) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00205 (488 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00671 (149 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00205 (488 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00667 (149 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00203 (492 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00777 (128 reqs/sec) | Rendering: 0.00023 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:39) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:39) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00181 (552 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00638 (156 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00208 (479 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00686 (145 reqs/sec) | Rendering: 0.00022 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 11:41:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 11:41:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00184 (543 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00724 (138 reqs/sec) | Rendering: 0.00022 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:07) [POST]
+  Session ID: 4f0416d28e275cab0687952ac4ac8339
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00704 (141 reqs/sec) | Rendering: 0.00041 (5%) | DB: 0.00096 (13%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:08) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 14:28:08) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.01022 (97 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01809 (55 reqs/sec) | Rendering: 0.00026 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:09) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 14:28:09) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00248 (403 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00772 (129 reqs/sec) | Rendering: 0.00028 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:10) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 14:28:10) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00242 (413 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00747 (133 reqs/sec) | Rendering: 0.00024 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 14:28:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00201 (497 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00655 (152 reqs/sec) | Rendering: 0.00024 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 14:28:11) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00216 (462 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00739 (135 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:13) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-10 14:28:13) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00423 (236 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00736 (135 reqs/sec) | Rendering: 0.00024 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-10 14:28:14) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-10 14:28:14) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00202 (494 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00664 (150 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-11 14:48:21) [POST]
+  Session ID: 3bc55029473a2b3be45b978b5028525e
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00843 (118 reqs/sec) | Rendering: 0.00034 (4%) | DB: 0.00095 (11%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-11 14:48:21) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-11 14:48:21) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.01984 (50 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.02955 (33 reqs/sec) | Rendering: 0.00026 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-11 14:48:23) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-11 14:48:23) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00245 (407 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00727 (137 reqs/sec) | Rendering: 0.00024 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-14 08:17:40) [POST]
+  Session ID: 0df4789d7e769560d6ffbfac839fa0d9
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00477 (209 reqs/sec) | Rendering: 0.00035 (7%) | DB: 0.00147 (30%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-14 08:17:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-14 08:17:40) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00564 (177 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01589 (62 reqs/sec) | Rendering: 0.00025 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-14 08:17:49) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-14 08:17:49) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00233 (429 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00685 (145 reqs/sec) | Rendering: 0.00024 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-18 10:17:43) [POST]
+  Session ID: e40493fdaa2398230ecce9785274924b
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00415 (241 reqs/sec) | Rendering: 0.00031 (7%) | DB: 0.00097 (23%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-18 10:17:44) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-18 10:17:44) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00520 (192 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01810 (55 reqs/sec) | Rendering: 0.00023 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-18 10:17:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-18 10:17:45) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00233 (428 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00694 (144 reqs/sec) | Rendering: 0.00022 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-21 11:45:33) [POST]
+  Session ID: 7f24ed501dfe55f0ba9f2a82b810fc33
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.01589 (62 reqs/sec) | Rendering: 0.00037 (2%) | DB: 0.00172 (10%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-21 11:45:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-21 11:45:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.03509 (28 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.34733 (2 reqs/sec) | Rendering: 0.00024 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-21 11:45:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-21 11:45:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00322 (310 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00800 (124 reqs/sec) | Rendering: 0.00024 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.69.120.85 at 2008-07-26 13:25:28) [POST]
+  Session ID: 986a7f9c08e13ffe6615d1d55dde298b
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00530 (188 reqs/sec) | Rendering: 0.00034 (6%) | DB: 0.00119 (22%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 201.69.120.85 at 2008-07-26 13:25:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 201.69.120.85 at 2008-07-26 13:25:29) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00640 (156 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.02714 (36 reqs/sec) | Rendering: 0.00030 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 201.69.120.85 at 2008-07-26 13:25:32) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.69.120.85 at 2008-07-26 13:25:32) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00229 (436 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00559 (178 reqs/sec) | Rendering: 0.00024 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.35.58.210 at 2008-07-27 14:58:20) [POST]
+  Session ID: 1f3a19c3b7f2737d1970f351edb710a2
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00517 (193 reqs/sec) | Rendering: 0.00036 (6%) | DB: 0.00146 (28%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.58.210 at 2008-07-27 14:58:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.58.210 at 2008-07-27 14:58:20) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00624 (160 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01910 (52 reqs/sec) | Rendering: 0.00028 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.58.210 at 2008-07-27 14:58:22) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.58.210 at 2008-07-27 14:58:22) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00329 (304 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00690 (144 reqs/sec) | Rendering: 0.00032 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-29 09:23:54) [POST]
+  Session ID: a441a496b2776c1097e9617c11afb683
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00509 (196 reqs/sec) | Rendering: 0.00040 (7%) | DB: 0.00144 (28%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-29 09:23:54) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-29 09:23:54) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.02681 (37 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.04057 (24 reqs/sec) | Rendering: 0.00024 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-29 09:23:55) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-29 09:23:55) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00220 (453 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00692 (144 reqs/sec) | Rendering: 0.00023 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:31) [POST]
+  Session ID: 68cfdbc8b66b099bafe9fc85a64756d2
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00478 (209 reqs/sec) | Rendering: 0.00020 (4%) | DB: 0.00144 (30%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:31) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 201.23.141.71 at 2008-07-29 09:26:31) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00501 (199 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01137 (87 reqs/sec) | Rendering: 0.00015 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.23.141.71 at 2008-07-29 09:26:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00187 (535 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00476 (209 reqs/sec) | Rendering: 0.00014 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:36) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.23.141.71 at 2008-07-29 09:26:36) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00190 (525 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00473 (211 reqs/sec) | Rendering: 0.00014 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 201.23.141.71 at 2008-07-29 09:26:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00214 (468 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00488 (204 reqs/sec) | Rendering: 0.00015 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:26:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.23.141.71 at 2008-07-29 09:26:38) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00199 (501 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00475 (210 reqs/sec) | Rendering: 0.00014 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:28:00) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.23.141.71 at 2008-07-29 09:28:00) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00195 (512 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00490 (204 reqs/sec) | Rendering: 0.00014 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 201.23.141.71 at 2008-07-29 09:28:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 201.23.141.71 at 2008-07-29 09:28:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00182 (550 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00463 (215 reqs/sec) | Rendering: 0.00014 (3%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:53:50) [POST]
+  Session ID: d54ab37ade6000f2a7e9b3d32cd93b49
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00543 (184 reqs/sec) | Rendering: 0.00033 (6%) | DB: 0.00146 (26%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:54:16) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00541 (184 reqs/sec) | Rendering: 0.00032 (5%) | DB: 0.00097 (17%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:54:51) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-30 10:54:51) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00919 (108 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.01849 (54 reqs/sec) | Rendering: 0.00028 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:54:58) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00332 (301 reqs/sec) | Rendering: 0.00026 (7%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:54:58) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.47.131.57 at 2008-07-30 10:54:58) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00251 (398 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00847 (118 reqs/sec) | Rendering: 0.00024 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.47.131.57 at 2008-07-30 10:55:00) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.47.131.57 at 2008-07-30 10:55:00) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00250 (399 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00807 (123 reqs/sec) | Rendering: 0.00023 (2%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.104.182.142 at 2008-07-30 10:55:53) [POST]
+  Session ID: 69c771d24a69c1fc2743170ea315474d
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.01021 (97 reqs/sec) | Rendering: 0.00040 (3%) | DB: 0.00183 (17%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.104.182.142 at 2008-07-30 10:55:53) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.104.182.142 at 2008-07-30 10:55:53) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00589 (169 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing MessagesController#show (for 189.104.182.142 at 2008-07-30 10:55:53) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00219 (457 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.01913 (52 reqs/sec) | Rendering: 0.00027 (1%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.104.182.142 at 2008-07-30 10:56:02) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.104.182.142 at 2008-07-30 10:56:02) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00220 (454 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00555 (180 reqs/sec) | Rendering: 0.00026 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
+
+
+Processing RubyamfController#gateway (for 189.104.182.142 at 2008-07-30 10:56:06) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.104.182.142 at 2008-07-30 10:56:06) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00212 (470 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00520 (192 reqs/sec) | Rendering: 0.00024 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.104.182.142 at 2008-07-30 10:56:08) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.104.182.142 at 2008-07-30 10:56:08) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.00253 (395 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.00538 (185 reqs/sec) | Rendering: 0.00023 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.58.195 at 2008-08-07 19:39:47) [POST]
+  Session ID: 0eb33d00e67e416b548f003604836952
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+Sending data 
+Completed in 0.00584 (171 reqs/sec) | Rendering: 0.00039 (6%) | DB: 0.00118 (20%) | 200 OK [http://www.mindu.tecnologia.ws/flexrails/rubyamf/gateway]
+
+
+Processing RubyamfController#gateway (for 189.35.58.195 at 2008-08-07 19:39:47) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#index (for 189.35.58.195 at 2008-08-07 19:39:47) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"index", "controller"=>"messages"}
+Rendering messages/index
+Completed in 0.02019 (49 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/index]
+Sending data 
+Completed in 0.03741 (26 reqs/sec) | Rendering: 0.00025 (0%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/index]
+
+
+Processing RubyamfController#gateway (for 189.35.58.195 at 2008-08-07 19:39:48) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"gateway", "controller"=>"rubyamf"}
+
+
+Processing MessagesController#show (for 189.35.58.195 at 2008-08-07 19:39:48) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ba87e5cacdba7ae0d970a98532cb6a4cde92bc6a
+  Parameters: {"action"=>"show", "controller"=>"messages"}
+Rendering messages/show
+Completed in 0.00220 (454 reqs/sec) | DB: 0.00000 (0%) |  [http://www.mindu.tecnologia.wsmessages/show]
+Sending data 
+Completed in 0.00533 (187 reqs/sec) | Rendering: 0.00024 (4%) | DB: 0.00000 (0%) | 200 OK [http://www.mindu.tecnologia.wsmessages/show]
